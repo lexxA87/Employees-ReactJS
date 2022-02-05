@@ -49,7 +49,11 @@ class EmployeesListItem extends Component {
             <i className="fas fa-cookie"></i>
           </button>
 
-          <button type="button" className="btn-trash btn-sm ">
+          <button
+            type="button"
+            onClick={this.props.deleteItem}
+            className="btn-trash btn-sm "
+          >
             <i className="fas fa-trash"></i>
           </button>
           <i className="fas fa-star"></i>
